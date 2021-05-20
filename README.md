@@ -2,7 +2,11 @@
 
 An exercising in using CSS Grid to arrange `<div>`s into a bento box.
 
-### Your Mission
+## End goal
+
+<img src="assets/goal.png"/>
+
+## Your Mission
 
 This is an exercise in utilizing CSS Grid in a slightly more complex CSS layout.
 
