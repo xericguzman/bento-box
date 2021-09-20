@@ -1,0 +1,29 @@
+.parent {
+    display: grid;
+    grid-template-columns:150, 150, 100;
+    grid-template-rows:100 100 100 100 100;
+    grid-template-areas:
+    "fish-flag fish-flag vase-short"
+    "map map vase-short"
+    "vase-tall bamboo bamboo"
+    "vase-tall bamboo bamboo"
+    "vase-tall quadropus quadropus"
+}
+
+.fish-flag { grid-area: fish-flag;
+}
+
+.map { grid-area: map;   
+}
+
+.bamboo { grid-area: bamboo
+}
+
+.quadropus { grid-area: quadropus;
+}
+
+.vase-short { grid-area: vase-short;
+}
+
+.vase-tall { grid-area: vase-tall;
+}
